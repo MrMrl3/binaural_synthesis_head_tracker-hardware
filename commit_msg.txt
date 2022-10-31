@@ -1,0 +1,7 @@
+[HW] Initialization of EAGLE project
+	- Created EAGLE project
+	- Created empty schematic(.sch)
+	- Created empty board(.brd)
+	- Adjusted DRC to follow JLCPCB 4Layer stackup
+Note: https://cart.jlcpcb.com/quote
+	JLC7628 Stackup
