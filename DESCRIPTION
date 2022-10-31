@@ -1,0 +1,14 @@
+<head>Binaural synthesis head tracker</head>
+<b>Binaural synthesis head tracker</b>
+<p>This is an EAGLE project for Binaural synthesis head tracker hardware.</p>
+</p>The hardware scope of the project has the following requirements:
+<ul>
+<li>
+<b>Battery Management (BMS)</b> 
+<p>BMS will consist of an IC that will charge the battery when plugged in at specific current. Battery used shall be LIR2450. MOSFET shall be used to switch to power from USB when power is detected.</p>
+</li>
+<li><b>Connectors</b> 
+<p>USB-C will be used to power and flash the device. Also RF connector is present to connect 2.4GHz antenna</p></li>
+<li><b>MCU and sensors</b> 
+<p>ESP32 will be used, paired with Gyroscope, Accellerometer and Magnetometer to track the position and orientation of the device. Also all the data shall be sent over Wi-Fi or BLE</p></li>
+</ul></p>
